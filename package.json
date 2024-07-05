@@ -1,10 +1,14 @@
 {
+  "name": "main",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "packageManager": "npm@10.2.4",
   "scripts": {
-    "dev": "turbo run dev --parallel"
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "storybook": "start-storybook -p 6006"
   },
   "devDependencies": {
     "turbo": "^2.0.6"
