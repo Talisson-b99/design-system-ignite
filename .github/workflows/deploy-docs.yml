@@ -27,4 +27,4 @@ jobs:
           git config user.name "GH Actions Bot"
           git config user.email "actions@github.com"
           git remote set-url origin https://${GH_PAT}@github.com/Talisson-b99/design-system-ignite.git
-          npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
+          npm run storybook -- --ci --existing-output-dir=storybook-static

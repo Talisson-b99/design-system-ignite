@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "deploy-storybook": "storybook-to-ghpages"
+    "storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@storybook/addon-a11y": "^8.1.11",
